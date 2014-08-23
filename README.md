@@ -4,6 +4,8 @@ ctb_theme
 **Work in Progress**
 
 Currently, these colors have been designed for ruby. 
+Available for vim. 
+Textmate theme incoming.
 
 
 This color scheme improves legibility and allows you to quickly determine what the program is doing based on the colors.
