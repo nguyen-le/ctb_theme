@@ -5,6 +5,7 @@ ctb_theme
 
 Currently, these colors have been designed for ruby. 
 
+
 This color scheme improves legibility and allows you to quickly determine what the program is doing based on the colors.
 It makes reading nested code easier too.
 
@@ -12,3 +13,7 @@ It makes reading nested code easier too.
 - Class and Constants are orange.
 - loops(while/until) and (being/do..end) methods are colored green.
 - conditionals(if/elsif/else/unless) are colored yellow.
+
+***To Add:***
+- more syntax highlightingtm
+- tmTheme
