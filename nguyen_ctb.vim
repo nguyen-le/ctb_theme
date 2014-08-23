@@ -39,16 +39,8 @@ if !has("gui_running")
   let s:comment = "484848"
   let s:lightred = "e93636"
   let s:red = "760808"
-  let s:orange = "e68a48"
   let s:yellow = "e1a937"
-  let s:paleyellow = "ffffa7"
-  let s:green = "529d52"
-  let s:aqua = "8abeb7"
-  let s:blue = "39b1ed"
-  let s:darkblue = "19218c"
   let s:purple = "5b386d"
-  let s:darkpurple = "392cd0"
-  let s:window = "000000"
 end
 
 "set background=dark
