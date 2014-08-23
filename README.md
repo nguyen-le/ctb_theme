@@ -7,6 +7,15 @@ Currently, these colors have been designed for ruby.
 
 Only on vim right now, but Textmate theme incoming.
 
+To use:
+File should go in your vim colors directory
+```
+~/.vim/colors/nguyen_ctb.vim
+```
+then in your .vimrc
+```
+colorscheme nguyen_ctb
+```
 
 This color scheme improves legibility and allows you to quickly determine what the program is doing based on the colors.
 It makes reading nested code easier too.
