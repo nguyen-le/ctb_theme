@@ -10,5 +10,5 @@ It makes reading nested code easier too.
 
 - class, instance, block, and interpolated variables are light-red colored.
 - Class and Constants are orange.
-- Loops(while/until), and control(do..end/ return) methods are colored green.
-- Conditionals(if/elsif/else/unless) are colored yellow.
+- loops(while/until), and control(do..end/ return) methods are colored green.
+- conditionals(if/elsif/else/unless) are colored yellow.
