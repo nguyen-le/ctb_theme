@@ -15,5 +15,5 @@ It makes reading nested code easier too.
 - conditionals(if/elsif/else/unless) are colored yellow.
 
 ***To Add:***
-- more syntax highlightingtm
+- more syntax highlighting
 - tmTheme
