@@ -19,6 +19,7 @@ File should go in your vim colors directory
 ```
 then in your .vimrc
 ```
+syntax on
 colorscheme ctb
 ```
 
