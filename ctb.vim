@@ -297,7 +297,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   end
 
   " Standard Highlighting
-  call <SID>X("Comment", s:lightgray, "", "")
+  call <SID>X("Comment", s:paleblue, "", "")
   call <SID>X("Todo", s:yellow, s:background, "")
   call <SID>X("Boolean", s:integer, "", "underline")
   call <SID>X("Title", s:yellow, "", "")
@@ -372,13 +372,19 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
   " Python Highlighting
   call <SID>X("pythonBuiltin", s:integer, "", "underline")
+  call <SID>X("pythonClass", s:orange, "", "")
+  call <SID>X("pythonClassName", s:orange, "", "")
   call <SID>X("pythonConditional", s:orange, "", "")
   call <SID>X("pythonDecorator", s:salmon, "", "")
+  call <SID>X("pythonDef", s:orange, "", "")
+  "call <SID>X("pythonDottedName", s:lightpurple, "", "")
   call <SID>X("pythonException", s:lightred, "", "")
   call <SID>X("pythonFunction", s:yellow, "", "")
   call <SID>X("pythonImport", s:blue, "", "")
   call <SID>X("pythonRepeat", s:green, "", "")
   call <SID>X("pythonStatement", s:green, "", "")
+  call <SID>X("pythonBuiltinFunc", s:yellow, "", "")
+  call <SID>X("pythonBuiltinObj", s:yellow, "", "")
 
   " Go Highlighting
   call <SID>X("goStatement", s:green, "", "")
