@@ -45,11 +45,13 @@ if !has("gui_running")
   let s:orange = "e68a48"
   let s:yellow = "e1a937"
   let s:paleyellow = "ffffa7"
-  let s:aqua = "8abeb7"
+  let s:aqua = "86d0d2"
   let s:blue = "52c1ed"
 "  let s:blue = "39b1ed"
   let s:darkblue = "19218c"
   let s:purple = "5b386d"
+  let s:purple = "a86ec1"
+  "let s:purple = "6b4b7b"
   let s:darkpurple = "392cd0"
   let s:window = "000000"
 end
@@ -403,26 +405,40 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
   call <SID>X("Number", s:blue, "", "")
   "call <SID>X("jsBraces", s:lightgray, "", "")
   "call <SID>X("jsParens", s:lightgray, "", "")
+  " Javascript vim-javascript highlight
+  call <SID>X("jsAssignmentExpr", s:salmon, "", "")
+  call <SID>X("jsAssignExpIdent", s:salmon, "", "")
+  call <SID>X("jsFuncAssignExpr", s:salmon, "", "")
+  call <SID>X("jsFuncAssignObjChain", s:salmon, "", "")
+  call <SID>X("jsFuncAssignIdent", s:salmon, "", "")
+  call <SID>X("jsFuncArrowArgs", s:salmon, "", "")
   call <SID>X("jsComment", s:paleblue, "", "")
   call <SID>X("jsBraces", s:orange, "", "")
   call <SID>X("jsException", s:red, "", "")
   call <SID>X("jsFunction", s:yellow, "", "")
   call <SID>X("jsFuncBraces", s:yellow, "", "")
+  call <SID>X("jsFuncCall", s:aqua, "", "")
   call <SID>X("jsFuncParens", s:yellow, "", "")
-  call <SID>X("jsFuncName", s:paleyellow, "", "bold")
+  call <SID>X("Function", s:paleyellow, "", "bold")
   call <SID>X("jsFuncArgs", s:salmon, "", "")
+  call <SID>X("jsFuncArgRest", s:salmon, "", "")
+  call <SID>X("jsFunctionKey", s:paleyellow, "", "bold")
   call <SID>X("jsGlobalObjects", s:palegreen, "", "")
   call <SID>X("jsKeyword", s:green, "", "")
   call <SID>X("jsObjectKey", s:salmon, "", "")
+  call <SID>X("jsObjectKeys", s:salmon, "", "")
   call <SID>X("jsOperator", "bb7bd7", "", "")
-  call <SID>X("jsFunctionKey", s:yellow, "", "")
+  call <SID>X("jsModules", s:blue, "", "")
   call <SID>X("jsParens", s:yellow, "", "")
   call <SID>X("jsPrototype", s:salmon, "", "")
   call <SID>X("jsRepeat", s:green, "", "")
   call <SID>X("jsReturn", s:green, "", "")
+  call <SID>X("jsRequire", s:blue, "", "")
   call <SID>X("jsSpecial", "bb7bd7", "", "")
   call <SID>X("jsThis", s:salmon, "", "")
-  call <SID>X("jsStorageClass", s:salmon, "", "")
+  call <SID>X("jsStorageClass", s:purple, "", "")
+
+  " Javascript vanilla highlight
   call <SID>X("javaScriptConditional", s:yellow, "", "")
   call <SID>X("javaScriptRepeat", s:green, "", "")
   call <SID>X("javaScriptNumber", s:integer, "", "")
